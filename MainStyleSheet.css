@@ -1,5 +1,5 @@
-* {
-    /*border: 1px ;
+* {/*
+    border: 1px ;
     border-style:  dotted;
     border-color: black; 
     test
@@ -23,41 +23,47 @@ header{
  #heading {
     font-size: 50px;
     color: black;
-    text-align: center;
-
- }   
+    padding-left: 38%;
+ } 
+ 
+ 
 
 #quicklinks{
-
-    float: left;
-    padding-top: 5px;
-    background-color: darkgreen;
-    text-align: center;
-    border-color: black;
-    border-style: solid;
-    
+    margin-top: 20px;
     
 }
 
-#quicktitle {
-    text-decoration-line: underline;
-    text-decoration-thickness: under 2px;
-    
-}
+
 
 #quicklinks ul {
-    padding: 0%;
+    width: 100%;   
+    padding: 10px; 
+    padding-left: 25%;
+    background-color:  rgb(78, 73, 73);
+    ; 
 }
 
 #quicklinks ul li {
+    background-color: rgb(78, 73, 73);
+    text-align: center;
     list-style: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
-    padding-bottom: 10px; 
+    padding: 10px; 
+    padding-left: 25px; 
+    padding-right: 25px;
     font-weight: bold;
-    color: black;
+    
 }
 
-p {
-    text-align: center;
+#quicklinks li {
+    display: inline;
+    
+    
+    
 }
+
+#quicklinks a {
+    text-decoration: none;
+    color:white
+    
+}
+
