@@ -7,47 +7,42 @@
 }  
 
 header{
-    padding-left: 20px;
+    
     padding-top: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 0%;
     background-color: lightgray;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     
 }
 
 #logo {
+    padding-left: 20px;
     padding-top: 30px;
     float: left;
 }
 
- #heading {
+ #pagetitle {
     font-size: 50px;
     color: black;
     padding-left: 38%;
  } 
- 
- 
 
-#quicklinks{
-    margin-top: 20px;
+ 
+ #quicklinks ul {
+    
+    margin-top: 60px;
+    padding: 10px;
+    padding-left: 18%;
+    background-color:  rgb(78, 73, 73);
     
 }
 
-
-
-#quicklinks ul {
-    width: 100%;   
-    padding: 10px; 
-    padding-left: 25%;
-    background-color:  rgb(78, 73, 73);
-    ; 
-}
-
 #quicklinks ul li {
+    width: 100%;
     background-color: rgb(78, 73, 73);
     text-align: center;
     list-style: none; /* Remove bullets */
-    padding: 10px; 
+    
     padding-left: 25px; 
     padding-right: 25px;
     font-weight: bold;
@@ -67,3 +62,6 @@ header{
     
 }
 
+#quicklinks a:hover {
+    color: lightblue;
+}
